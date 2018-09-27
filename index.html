@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <%= htmlWebpackPlugin.options.security || '' %>
+    <meta charset="utf-8">
+    <title>Chat Moveleiros</title>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, height=device-height">
+    <meta name="robots" content="NOINDEX,NOFOLLOW">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <link rel="manifest" href="static/manifest.json">
+  </head>
+  <body>
+    <div id="app"></div>
+    <%= htmlWebpackPlugin.options.cordova || '' %>
+    <%= htmlWebpackPlugin.options.livechatPlugin || '' %>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
